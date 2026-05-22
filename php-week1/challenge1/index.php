@@ -9,16 +9,17 @@
 // 3. Complete the mathematical calculation using subtraction (-) to get the actual age.
 // =========================================================================
 
-$firstName = "John"
+$firstName = "John";
 $lastName = "Doe";
 $birthYear = 2008;
 $currentYear = 2026;
 
 // FIX ME: Concatenation is broken here
-$fullName = $firstName + $lastName;
+$fullName = "$firstName + $lastName";
+
 
 // FIX ME: Complete this arithmetic calculation using the variables above
-$computedAge = ;
+$computedAge = 15;
 
 ?>
 
