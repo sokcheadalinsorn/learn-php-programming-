@@ -14,7 +14,7 @@
   $eachFirend = $totalCost/ $numberOfFriends;
 
   // 3. Show the remainder if $50 is divided among friends.
-  $remainder = 50 / $numberOfFriends;
+  $remainder = 50 % $numberOfFriends;
 
   //output
   echo "Calculate total cost if each friend buys 2 pizzas:" .$totalCost. "<br>";
@@ -38,9 +38,9 @@
   //output
   echo "Add bonus XP:" .$xp. "<br>";
   echo "Double the XP using multiplication:" .$addBonus. "<br>";
-  echo "Calculate XP power using exponent operator (**):" .$calulateXp. "<br><br><br><br>";;
+  echo "Calculate XP power using exponent operator (**):" .$calulateXp. "<br><br><br><br>";
 
-  // 2. Assignment Operators (= += -= *= /= .=
+  // 2. Assignment Operators (= += -= *= /= .=)
   // Exercise 3 — Bank Account
 
   $balance = 100;
@@ -66,4 +66,31 @@
   echo "Multiply savings by 2: $multiply". "<br>";
   echo "Divide final balance by 5: $divideFinal". "<br>";
 
+  //Exercise 4 — Build a Username
+
+  $username = "hong";
+
+  //1. Add "_".
+    $underscore = $username;
+    $underscore .= "_"; 
+
+  // 2. Add "developer".
+    $nameDeveloper  = $underscore;
+    $nameDeveloper .= "developer";
+  //output
+  echo "$nameDeveloper";
+
+  //3. Comparison Operators (== === != > < >= <=)
+
+  //Exercise 5 — Age Checker
+  $age = 18;
+
+  //1. Check if age is equal to 18.
+    var_dump($age == 18);
+
+  //2. Check if age is greater than 16.
+   var_dump($age >= 16);
+
+  //3. Check if age is not equal to 21.
+  var_dump($age != 21);
 ?>
